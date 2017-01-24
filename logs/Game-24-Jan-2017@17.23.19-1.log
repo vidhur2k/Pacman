@@ -1,0 +1,876 @@
+17:22:10.613 [FXGL Launcher Thread     ] DEBUG FXGLLoggerFactory    - Service [LoggerFactory] initialized
+17:22:10.617 [FXGL Launcher Thread     ] DEBUG FXGL                 - FXGL configuration complete
+17:22:10.617 [FXGL Launcher Thread     ] DEBUG FXGL                 - Loading FXGL system data
+17:22:10.619 [FXGL Launcher Thread     ] DEBUG IOTask               - Executing task: readDataTask(system/fxgl.bundle)
+17:22:10.621 [FXGL Launcher Thread     ] DEBUG FS                   - Reading from: system/fxgl.bundle
+17:22:10.626 [FXGL Launcher Thread     ] DEBUG IOTask               - Task succeeded: readDataTask(system/fxgl.bundle)
+17:22:10.626 [FXGL Launcher Thread     ] DEBUG Bundle               - Logging bundle: FXGL
+17:22:10.626 [FXGL Launcher Thread     ] DEBUG Bundle               - FXGL.offline.timer.version.check=2017-01-17T22:13:38.325
+17:22:10.643 [FXGL Launcher Thread     ] DEBUG GameApplication      - Configuring GameApplication
+17:22:10.646 [FXGL Launcher Thread     ] DEBUG FXGLExceptionHandler - Service [ExceptionHandler] initialized
+17:22:10.646 [FXGL Launcher Thread     ] DEBUG FXGLEventBus         - Service [EventBus] initialized
+17:22:10.649 [FXGL Launcher Thread     ] DEBUG FXGLExecutor         - Service [Executor] initialized
+17:22:10.649 [FXGL Launcher Thread     ] DEBUG PreInitTask          - Injecting gameWorld & physicsWorld
+17:22:10.653 [FXGL Launcher Thread     ] DEBUG GameWorld            - Game world initialized
+17:22:10.687 [FXGL Launcher Thread     ] DEBUG FXGLPooler           - Service [Pooler] initialized with default size = 128
+17:22:10.687 [FXGL Launcher Thread     ] DEBUG PhysicsWorld         - Physics world initialized: appHeight=950.0, physics.ppm=50.0
+17:22:10.688 [FXGL Launcher Thread     ] DEBUG FXGLInput            - Service [Input] initialized
+17:22:10.702 [FXGL Launcher Thread     ] DEBUG FXGLInput            - Registered new binding: Screenshot - P
+17:22:10.702 [FXGL Launcher Thread     ] DEBUG FXGLInput            - Registered new binding: Dev Options - CTRL+0
+17:22:10.702 [FXGL Launcher Thread     ] DEBUG FXGLInput            - Registered new binding: UP - W
+17:22:10.702 [FXGL Launcher Thread     ] DEBUG FXGLInput            - Registered new binding: DOWN - S
+17:22:10.702 [FXGL Launcher Thread     ] DEBUG FXGLInput            - Registered new binding: LEFT - A
+17:22:10.703 [FXGL Launcher Thread     ] DEBUG FXGLInput            - Registered new binding: RIGHT - D
+17:22:10.723 [FXGL Launcher Thread     ] DEBUG GameScene            - Game scene initialized: 1250.0x950.0
+17:22:10.728 [FXGL Launcher Thread     ] DEBUG FXGLAssetLoader      - Service [AssetLoader] initialized: cacheSize=35
+17:22:10.729 [FXGL Launcher Thread     ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/sounds/system/notification.wav
+17:22:10.747 [FXGL Launcher Thread     ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/sounds/menu/select.wav
+17:22:10.748 [FXGL Launcher Thread     ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/sounds/menu/back.wav
+17:22:10.751 [FXGL Launcher Thread     ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/sounds/menu/press.wav
+17:22:10.754 [FXGL Launcher Thread     ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/ui/fonts/Copperplate_Gothic_Light_Regular.ttf
+17:22:10.767 [FXGL Launcher Thread     ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/ui/css/fxgl.css
+17:22:10.768 [FXGL Launcher Thread     ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/ui/icons/fxgl_icon.png
+17:22:10.795 [FXGL Launcher Thread     ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/ui/css/fxgl_dark.css
+17:22:10.807 [FXGL Launcher Thread     ] DEBUG FXGLDisplay          - Target size: DoubleProperty [value: 1250.0] x DoubleProperty [value: 950.0] @ 1.0
+17:22:10.807 [FXGL Launcher Thread     ] DEBUG FXGLDisplay          - New size:    1250.0 x 950.0 @ DoubleProperty [value: 1.0]
+17:22:10.808 [FXGL Launcher Thread     ] DEBUG FXGLDisplay          - Service [Display] initialized
+17:22:10.808 [FXGL Launcher Thread     ] DEBUG FXGLDisplay          - Using CSS: CSS(externalForm=jar:file:/home/vidhur2k/Documents/Java%20Projects/Pacman/lib/fxgl-0.2.9-uber.jar!/assets/ui/css/fxgl_dark.css)
+17:22:10.808 [FXGL Launcher Thread     ] DEBUG InitScenesTask       - Injecting loadingScene & gameScene
+17:22:10.811 [FXGL Launcher Thread     ] DEBUG FXGLMasterTimer      - Service [MasterTimer] initialized
+17:22:10.813 [FXGL Launcher Thread     ] DEBUG FXGLAudioPlayer      - Service [AudioPlayer] initialized
+17:22:10.821 [FXGL Launcher Thread     ] DEBUG GameApplication      - Starting new game
+17:22:10.822 [FXGL Launcher Thread     ] DEBUG GameApplication      - Initializing App
+17:22:10.823 [FXGL Launcher Thread     ] DEBUG FXGLInput            - Clearing active input actions
+17:22:10.824 [FXGL Launcher Thread     ] DEBUG FXGLMasterTimer      - Stopping master timer
+17:22:10.824 [FXGL Launcher Thread     ] DEBUG GameApplication      - State: STARTUP -> PAUSED
+17:22:10.824 [FXGL Launcher Thread     ] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+17:22:10.826 [FXGL Launcher Thread     ] DEBUG FXGLInput            - Clearing active input actions
+17:22:10.826 [FXGL Launcher Thread     ] DEBUG FXGLMasterTimer      - Resetting ticks and clearing all actions
+17:22:10.826 [FXGL Launcher Thread     ] DEBUG GameWorld            - Resetting game world
+17:22:10.826 [FXGL Launcher Thread     ] TRACE EntityWorld          - Resetting entity world
+17:22:10.827 [FXGL Launcher Thread     ] DEBUG PhysicsWorld         - Resetting physics world
+17:22:10.827 [FXGL Launcher Thread     ] DEBUG GameScene            - Resetting game scene
+17:22:10.827 [FXGL Launcher Thread     ] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=RESET]
+17:22:10.875 [FXGL Launcher Thread     ] DEBUG GameApplication      - State: PAUSED -> LOADING
+17:22:10.902 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initializing Assets
+17:22:10.903 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Caching assets
+17:22:10.912 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/textures/pacmanLeft.png
+17:22:10.915 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/textures/pacman2Up.png
+17:22:10.916 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/textures/pacman2Left.png
+17:22:10.917 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/textures/wall.png
+17:22:10.917 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/textures/pacmanDown.png
+17:22:10.917 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/textures/pacman2Down.png
+17:22:10.918 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/textures/pacman2Right.png
+17:22:10.919 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/textures/pacmanRight.png
+17:22:10.919 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/textures/pacmanUp.png
+17:22:10.920 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/textures/pellet.png
+17:22:10.958 [JavaFX Application Thread] DEBUG FXGLDisplay          - Showing stage
+17:22:10.958 [JavaFX Application Thread] DEBUG FXGLDisplay          - Root size: 1250.0x950.0
+17:22:10.958 [JavaFX Application Thread] DEBUG FXGLDisplay          - Scene size: 1250.0x950.0
+17:22:10.958 [JavaFX Application Thread] DEBUG FXGLDisplay          - Stage size: 1250.0x950.0
+17:22:11.128 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/sounds/menu/back.wav
+17:22:11.128 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/sounds/menu/press.wav
+17:22:11.128 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/sounds/menu/select.wav
+17:22:11.128 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/sounds/system/notification.wav
+17:22:11.320 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/text/level0.txt
+17:22:11.502 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/ui/fonts/Copperplate_Gothic_Light_Regular.ttf
+17:22:11.741 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Caching complete. Size: 16
+17:22:11.741 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initializing Game
+17:22:11.747 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/text/level0.txt
+17:22:11.771 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.773 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.774 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.775 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.776 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.777 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.778 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.779 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.780 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.781 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.782 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.783 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.784 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.785 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.786 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.787 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.788 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.789 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.790 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.791 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.792 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.794 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pellet.png
+17:22:11.795 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pellet.png
+17:22:11.796 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.797 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.798 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.799 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.800 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.801 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.801 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pellet.png
+17:22:11.802 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pellet.png
+17:22:11.803 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.803 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.804 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.805 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.806 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pellet.png
+17:22:11.806 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pellet.png
+17:22:11.807 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.808 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.808 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.809 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.809 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pellet.png
+17:22:11.810 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pellet.png
+17:22:11.811 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.811 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.812 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.813 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.814 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.815 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.815 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.816 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.816 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.817 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.817 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.818 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.819 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.819 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.820 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.821 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.821 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.822 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.822 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.823 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.823 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.824 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:11.826 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.827 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.828 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.828 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.829 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.830 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.831 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.832 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.833 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.834 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.836 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.837 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.838 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.839 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.840 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.842 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.842 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.843 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.843 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.844 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.845 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.846 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/wall.png
+17:22:11.846 [FXGL Background Thread 1 ] DEBUG GameWorld            - Resetting game world
+17:22:11.846 [FXGL Background Thread 1 ] TRACE EntityWorld          - Resetting entity world
+17:22:11.846 [FXGL Background Thread 1 ] DEBUG PhysicsWorld         - Resetting physics world
+17:22:11.846 [FXGL Background Thread 1 ] DEBUG GameScene            - Resetting game scene
+17:22:11.846 [FXGL Background Thread 1 ] DEBUG GameWorld            - Setting level: com.almasb.fxgl.gameplay.Level@5caebe01
+17:22:11.849 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initializing Physics
+17:22:11.850 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initializing UI
+17:22:11.852 [FXGL Background Thread 1 ] DEBUG GameScene            - Adding UI node: Text[text="PACMAN", x=0.0, y=0.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=System Regular, family=System, style=Regular, size=36.0], fontSmoothingType=GRAY, fill=0x008000ff]
+17:22:11.852 [FXGL Background Thread 1 ] DEBUG GameScene            - Adding UI node: Text[text="Score: 0", x=0.0, y=0.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=System Regular, family=System, style=Regular, size=36.0], fontSmoothingType=GRAY, fill=0x7fffd4ff]
+17:22:11.852 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initialization Complete
+17:22:11.854 [JavaFX Application Thread] DEBUG FXGLInput            - Clearing active input actions
+17:22:11.854 [JavaFX Application Thread] DEBUG FXGLMasterTimer      - Starting master timer
+17:22:11.854 [JavaFX Application Thread] DEBUG GameApplication      - State: LOADING -> PLAYING
+17:22:11.863 [JavaFX Application Thread] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=RESUME]
+17:22:11.916 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.917 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.918 [JavaFX Application Thread] DEBUG GameScene            - Creating render group for layer: TOP(2147483647)
+17:22:11.923 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.923 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.923 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.923 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.924 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.924 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.924 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.924 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.925 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.925 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.925 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.925 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.925 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.925 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.926 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.926 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.926 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.926 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.926 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.926 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.926 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.927 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.927 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.927 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.927 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.927 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.927 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.928 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.928 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.928 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.928 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.928 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.929 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.929 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.929 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.929 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.929 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.929 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.929 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.929 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.930 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.930 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.930 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.930 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.930 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.930 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.931 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.931 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.931 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.931 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.931 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.931 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.932 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.932 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.932 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.932 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.932 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.932 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.933 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.933 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.933 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.933 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.933 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.933 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.933 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.933 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.934 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.934 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.934 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.934 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.934 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.934 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.935 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.935 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.935 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.935 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.935 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.935 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.935 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.935 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.936 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.936 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.936 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.936 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.936 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.936 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.937 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.937 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.937 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.937 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.937 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.937 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.937 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.937 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.938 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.938 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.938 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.938 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.938 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.938 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.938 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.938 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.939 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.939 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.939 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.939 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.939 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.939 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.939 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.939 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.940 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.940 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.940 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.940 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.940 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.940 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.941 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.941 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.941 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.941 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.941 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.941 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.941 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.941 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.942 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.942 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.942 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.942 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.942 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.942 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.943 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.943 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.943 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.943 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.943 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.943 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.943 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.943 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.944 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.944 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.944 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.944 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.944 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.944 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.944 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.944 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.945 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.945 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.945 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.945 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.945 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.945 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.946 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.946 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.946 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.946 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.946 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.946 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.947 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.947 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.947 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.947 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.947 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.947 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.947 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.947 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.948 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.948 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.948 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.948 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.948 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.948 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.949 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.949 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+17:22:11.949 [JavaFX Application Thread] DEBUG GameScene            - Added MainViewComponent
+17:22:11.949 [JavaFX Application Thread] DEBUG GameScene            - Creating render group for layer: BACKGROUND(1000)
+17:22:12.212 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:12.475 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacman2Right.png
+17:22:12.741 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:13.007 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacman2Right.png
+17:22:13.241 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:13.257 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:13.274 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:13.274 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:13.290 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:13.307 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:13.324 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:13.340 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:13.357 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:13.374 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:13.390 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:13.407 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:13.424 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:13.440 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:13.456 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:13.473 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:13.489 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:13.505 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:13.522 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:13.538 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:13.539 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacman2Up.png
+17:22:13.555 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:13.572 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:13.588 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:13.605 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:13.621 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:13.638 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:13.655 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:13.672 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:13.688 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:13.705 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:13.722 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:13.739 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:13.755 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:13.772 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:13.788 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:13.806 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:13.806 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:13.822 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:13.839 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:13.855 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:13.872 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:13.889 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:13.905 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:13.922 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:13.939 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:13.955 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:13.972 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:13.989 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:14.005 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:14.022 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:14.072 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacman2Up.png
+17:22:14.338 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:14.605 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacman2Up.png
+17:22:14.639 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:14.655 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:14.673 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:14.689 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:14.706 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:14.723 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:14.739 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:14.756 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:14.772 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:14.789 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:14.806 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:14.822 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:14.839 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:14.856 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:14.873 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:14.874 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:14.890 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:14.906 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:14.922 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:14.938 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:14.955 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:14.972 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:14.988 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:15.005 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:15.022 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:15.038 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:15.055 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:15.072 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:15.089 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:15.105 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:15.122 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:15.139 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:15.139 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacman2Left.png
+17:22:15.155 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:15.172 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:15.189 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:15.205 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:15.405 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:15.672 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacman2Left.png
+17:22:15.938 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:16.205 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacman2Left.png
+17:22:16.473 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:16.723 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:16.740 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:16.740 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacman2Left.png
+17:22:16.756 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:16.772 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:16.789 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:16.805 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:16.822 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:16.839 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:16.856 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:16.872 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:16.888 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:16.905 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:16.922 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:16.939 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:16.955 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:16.972 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:16.989 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:17.005 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:17.006 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:17.022 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:17.038 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:17.055 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:17.072 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:17.089 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:17.105 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:17.122 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:17.139 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:17.155 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:17.172 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:17.189 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:17.205 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:17.222 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:17.223 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:17.239 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanLeft.png
+17:22:17.239 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:17.256 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:17.272 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:17.273 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacman2Up.png
+17:22:17.289 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:17.306 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:17.322 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:17.338 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:17.355 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:17.372 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:17.389 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:17.405 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:17.422 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:17.439 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:17.455 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:17.472 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:17.489 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:17.505 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:17.522 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:17.539 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:17.539 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:17.556 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:17.572 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:17.589 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:17.606 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:17.606 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:17.622 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:17.622 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:17.639 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:17.640 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:17.655 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:17.656 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:17.672 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:17.672 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:17.689 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:17.689 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:17.706 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:17.706 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:17.722 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:17.723 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:17.739 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:17.739 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:17.755 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:17.756 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:17.772 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:17.772 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:17.789 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:17.789 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:17.805 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:17.806 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:17.806 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacman2Right.png
+17:22:17.822 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:17.822 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:17.839 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:17.855 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:17.872 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:17.889 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:17.905 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:17.922 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:17.939 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:17.955 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:17.972 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:17.989 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.005 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.022 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.039 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.055 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.072 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.073 [JavaFX Application Thread] DEBUG GameScene            - Entity removed from scene
+17:22:18.073 [JavaFX Application Thread] DEBUG GameScene            - Removed MainViewComponent
+17:22:18.074 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.089 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.105 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.122 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.139 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.156 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.173 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.189 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.205 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.222 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.239 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.256 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.272 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.289 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.305 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.322 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.339 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.340 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacman2Up.png
+17:22:18.356 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.372 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.389 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.405 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.423 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.423 [JavaFX Application Thread] DEBUG GameScene            - Entity removed from scene
+17:22:18.423 [JavaFX Application Thread] DEBUG GameScene            - Removed MainViewComponent
+17:22:18.439 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.455 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.472 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.489 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.505 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.522 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.539 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.556 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.572 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.589 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.605 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.606 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.622 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.639 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.655 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.672 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.689 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.706 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.722 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.739 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.755 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.772 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.772 [JavaFX Application Thread] DEBUG GameScene            - Entity removed from scene
+17:22:18.773 [JavaFX Application Thread] DEBUG GameScene            - Removed MainViewComponent
+17:22:18.790 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.806 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.823 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.840 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.857 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.873 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.873 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacman2Up.png
+17:22:18.889 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.905 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.922 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.939 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.956 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.972 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:18.989 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:19.005 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:19.022 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:19.039 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:19.056 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:19.072 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:19.089 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:19.105 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:19.122 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:19.139 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:19.139 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:19.156 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:19.172 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:19.189 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:19.205 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:19.222 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:19.239 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:19.256 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:19.272 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:19.289 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:19.290 [JavaFX Application Thread] DEBUG GameScene            - Entity removed from scene
+17:22:19.290 [JavaFX Application Thread] DEBUG GameScene            - Removed MainViewComponent
+17:22:19.306 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:19.322 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:19.339 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:19.355 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:19.372 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:19.389 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:19.406 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:19.406 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacman2Up.png
+17:22:19.422 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:19.439 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:19.455 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:19.472 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:19.489 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:19.505 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:19.522 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanUp.png
+17:22:19.540 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:19.556 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:19.579 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:19.595 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:19.612 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:19.628 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:19.645 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:19.662 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:19.678 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:19.679 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:19.695 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:19.712 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:19.728 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:19.745 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:19.762 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:19.778 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:19.795 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:19.812 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:19.829 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:19.845 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:19.861 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:19.877 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:19.894 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:19.910 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:19.927 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:19.944 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:19.945 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacman2Right.png
+17:22:19.960 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:19.977 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:19.994 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:20.011 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:20.028 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:20.044 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:20.061 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:20.078 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:20.094 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:20.110 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:20.210 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:20.475 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacman2Right.png
+17:22:20.742 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:21.007 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacman2Right.png
+17:22:21.274 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:21.440 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:21.457 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:21.473 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:21.490 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:21.507 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:21.523 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:21.540 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:21.540 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacman2Right.png
+17:22:21.557 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:21.573 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:21.590 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:21.607 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:21.623 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:21.640 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:21.657 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:21.674 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:21.690 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:21.707 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:21.723 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:21.740 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:21.757 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:21.773 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:21.790 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:21.806 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:21.806 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:21.822 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:21.839 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:21.856 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:21.873 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:21.889 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:21.906 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:21.923 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:21.939 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:21.956 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:21.973 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:21.989 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:22.006 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:22.022 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:22.039 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:22.072 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacman2Right.png
+17:22:22.340 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:22.373 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:22.390 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:22.407 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:22.424 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:22.440 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:22.457 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:22.474 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:22.490 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:22.507 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:22.523 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:22.606 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacman2Right.png
+17:22:22.873 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:23.074 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:23.090 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:23.107 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:23.124 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:23.124 [JavaFX Application Thread] DEBUG GameScene            - Entity removed from scene
+17:22:23.124 [JavaFX Application Thread] DEBUG GameScene            - Removed MainViewComponent
+17:22:23.141 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:23.141 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacman2Right.png
+17:22:23.407 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:23.674 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacman2Right.png
+17:22:23.690 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:23.706 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:23.723 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:23.739 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:23.756 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:23.773 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:23.789 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:23.939 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:24.006 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:24.023 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:24.039 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:24.056 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:24.073 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:24.089 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanRight.png
+17:22:24.190 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:24.206 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:24.206 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacman2Down.png
+17:22:24.223 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:24.240 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:24.256 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:24.473 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:24.740 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacman2Down.png
+17:22:25.006 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.073 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.090 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.106 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.123 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.140 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.156 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.173 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.190 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.206 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.223 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.240 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.257 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.257 [JavaFX Application Thread] DEBUG GameScene            - Entity removed from scene
+17:22:25.257 [JavaFX Application Thread] DEBUG GameScene            - Removed MainViewComponent
+17:22:25.273 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.274 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacman2Down.png
+17:22:25.290 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.306 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.323 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.340 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.356 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.373 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.390 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.406 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.423 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.439 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.456 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.473 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.490 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.506 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.523 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.539 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.540 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.556 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.573 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.589 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.606 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.607 [JavaFX Application Thread] DEBUG GameScene            - Entity removed from scene
+17:22:25.607 [JavaFX Application Thread] DEBUG GameScene            - Removed MainViewComponent
+17:22:25.623 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.640 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.656 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.673 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.690 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.706 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.723 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.740 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.756 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.773 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.790 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.806 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.807 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacman2Down.png
+17:22:25.823 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.840 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.856 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.874 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.891 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.907 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.923 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.940 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.957 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.958 [JavaFX Application Thread] DEBUG GameScene            - Entity removed from scene
+17:22:25.958 [JavaFX Application Thread] DEBUG GameScene            - Removed MainViewComponent
+17:22:25.974 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:25.991 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:26.008 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:26.024 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:26.040 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:26.056 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:26.073 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:26.073 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:26.340 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacman2Down.png
+17:22:26.606 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:26.873 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacman2Down.png
+17:22:27.141 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:27.406 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacman2Down.png
+17:22:27.673 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:27.944 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacman2Down.png
+17:22:28.210 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:28.476 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacman2Down.png
+17:22:28.743 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:29.010 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacman2Down.png
+17:22:29.275 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
+17:22:29.550 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacman2Down.png
+17:22:29.814 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/pacmanDown.png
